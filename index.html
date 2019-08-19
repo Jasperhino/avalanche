@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>particles.js</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+</head>
+<body>
+  <div id="particles-js">
+    <div id="discord-widget">
+      <iframe src="https://discordapp.com/widget?id=274291979569987584&theme=dark" width="300" height="100%" allowtransparency="true" frameborder="0"></iframe>
+      <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+        new Crate({
+          server: '274291979569987584',
+          channel: '274291979569987584',
+          shard: 'https://disweb.deploys.io'
+        })
+      </script>
+    </div>
+    <div id="csgo-widget">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <a href="https://tsarvar.com/servers/counter-strike-go/141.89.216.118:27015" data-tsarvarServerId="77725">Look server page LinuxGSM</a>
+        <script type="text/javascript" charset="utf-8" src="https://widget.tsarvar.com/loadWidget.js"></script>
+        <script type="text/javascript">
+            (function(k){(window[k]||(window[k]=[])).push({
+                element:'*[data-tsarvarServerId="77725"]',
+                serverId:77725,
+                serverIp:'141.89.216.118',
+                serverPort:27015,
+                blackMode:true
+            });})('TsarvarWidgetQueue');
+        </script>
+    </div>
+  </div>
+
+<!-- scripts -->
+<script src="./particles.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
